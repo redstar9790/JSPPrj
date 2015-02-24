@@ -1,0 +1,83 @@
+.gallery
+{
+   width: 500px;
+   height: 400px;
+   border: 1px solid #000;
+}
+.gallery-show-box
+{
+   background: #828282;
+   width: 100%;
+   height: 300px;
+   overflow: hidden;
+}
+
+.gallery-show-box > img 
+{
+   display: block;
+   margin-top: 25px;
+   margin-left: auto;
+   margin-right: auto;
+ 
+
+}
+
+.gallery-pic-box hover
+{
+   background: #000;
+   width: 100%;
+   height: 100px;
+   transform: roate(7.5deg);
+}
+
+.gallery-pic-list
+{
+   height: 100%;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   display: inline-block;
+   border: 1px solid red;
+   width: 2000px;
+}
+.gallery-pic-clipper
+{
+   position: relative;
+   float: left;
+   width: 450px;
+   height: 100%;
+   overflow: hidden;
+}
+.gallery-pic-item
+{
+   float: left;
+   width: 80px;
+   height: 98px;
+   border:1px solid #ffffff;
+}
+.gallery-pic
+{
+   width: 100%;
+   height: 100%;
+}
+
+.gallery-prev-button
+{
+   background: pink;
+   float: left;
+   width: 25px;
+   height: 100%;
+}
+.gallery-next-button
+{
+   background: pink;
+   float: left;
+   width: 25px;
+   height: 100%;
+}
+
+.gallery-file
+{
+   display:none;
+}
+
